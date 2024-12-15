@@ -28,7 +28,7 @@ The CodeMix Language Detector features a user-friendly interface built with Stre
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Anjana2002/Language-Identification-for-Malayalam-English-Code-Mixed-Text.git
+   git clone https://github.com/Anjana2002/CodeMix-Language-Detector.git
    ```
 
 ## Acknowledgment
