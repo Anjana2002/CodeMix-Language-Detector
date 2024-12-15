@@ -22,6 +22,8 @@ After lemmatization and tokenization, words are tagged, dataset is labeled with 
 
 The project utilizes various BERT-based models, including BERT, CamemBERT, DistilBERT, ELECTRA, and XLM-RoBERTa, for Word-Level Language Identification (WLLI) on the Malayalam-English code-mixed dataset. Models are evaluated and compared using metrics such as F1-score, accuracy, precision, and recall to determine the best-performing approach for language identification.
 
+## User Interface
+The CodeMix Language Detector features a user-friendly interface built with Streamlit, allowing users to input Malayalam-English code-mixed text. By clicking the "Predict" button, the interface displays word-level language identification results in real-time, classifying words into six categories such as Malayalam (mal), English (eng), and more. It provides an interactive and efficient way to analyze code-mixed text effortlessly.
 ## Installation
 
 1. Clone the repository:
