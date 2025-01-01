@@ -28,7 +28,8 @@ if st.button("Predict"):
     predictions = torch.argmax(outputs.logits, dim=2)
 
     # Decode predictions
-    tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])
+    tokens = tokenizer.convert_ids_to_tokens(inputs.input_ids[0])
+
     labels = [model.config.id2label[p.item()] for p in predictions[0]]
 
     # Combine tokens into words and filter out special tokens
