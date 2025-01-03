@@ -7,7 +7,7 @@ model_path = "./saved_xlmroberta"  # Path to your model directory
 model = AutoModelForTokenClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-st.title("XLM-RoBERTa NER Model")
+st.title("XLM-RoBERTa Model")
 
 # Define a custom label mapping
 label_mapping = {
