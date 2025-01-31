@@ -7,7 +7,7 @@ model_path = "./saved_xlmroberta"
 model = AutoModelForTokenClassification.from_pretrained(model_path)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
-st.title("XLM-RoBERTa Model")
+st.title("CodeMix-Language Detector")
 
 
 label_mapping = {
